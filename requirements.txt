@@ -1,0 +1,10 @@
+google-genai
+pandas
+groq
+tavily-python 
+requests 
+fastapi 
+uvicorn 
+httpx 
+python-multipart 
+python-dotenv

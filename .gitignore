@@ -1,0 +1,24 @@
+# Environment variables
+.env
+
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# VS Code settings
+.vscode/
+
+# Output folders
+outputs/*
+!outputs/.gitkeep
+
+results/*
+!results/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
