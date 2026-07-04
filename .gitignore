@@ -12,13 +12,10 @@ __pycache__/
 # VS Code settings
 .vscode/
 
-# Output folders
+# Folders
 outputs/*
 !outputs/.gitkeep
 
 results/*
 !results/.gitkeep
 
-# OS files
-.DS_Store
-Thumbs.db
