@@ -1,0 +1,26 @@
+{
+    "success": true,
+    "summary": "Meta Platforms, Inc. (META) stock experienced a significant rally following reports that the company plans to monetize its AI cloud infrastructure. The stock surged more than 8.5% to close at 612.191, driven by the news that Meta is developing a cloud business to sell excess AI computing capacity. This move aims to diversify revenue beyond its primary advertising-driven model. Analysts remain bullish on the potential of this strategy, although some express concerns about the company's ability to catch up with leading AI labs. Despite the positive market reaction, there are also reports indicating that Meta's plans may face immediate challenges, including the need to build more data centers to generate significant cloud revenue.",
+    "articles": [
+        {
+            "title": "Meta Stock Rallies On Reported Plan For AI Cloud Business; CoreWeave Slides - Investor's Business Daily",
+            "url": "https://www.investors.com/news/technology/meta-stock-facebook-cloud-ai-data-center/"
+        },
+        {
+            "title": "Meta building cloud business to sell excess AI capacity, Bloomberg News reports - Reuters",
+            "url": "https://www.reuters.com/business/meta-sell-excess-ai-computing-capacity-via-cloud-business-bloomberg-news-reports-2026-07-01/"
+        },
+        {
+            "title": "Meta Jumps on Report of New AI Cloud Revenue Opportunity - Quiver Quantitative",
+            "url": "https://www.quiverquant.com/news/Meta+Jumps+on+Report+of+New+AI+Cloud+Revenue+Opportunity"
+        },
+        {
+            "title": "Meta Stock Falls as AI Cloud Plans Hit an Immediate Snag - Barron's",
+            "url": "https://www.barrons.com/articles/meta-stock-price-softbank-cloud-0f855abd"
+        },
+        {
+            "title": "Meta Shares Jump 10% After Report Reveals AI Cloud Plans - Yahoo Finance",
+            "url": "https://finance.yahoo.com/technology/ai/articles/meta-shares-jump-10-report-200326117.html"
+        }
+    ]
+}

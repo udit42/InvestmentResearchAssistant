@@ -58,9 +58,9 @@ def main():
         news_data
     )
 
-    print(report)
-    with open(f"results/{ticker}_report.txt", "w", encoding="utf-8") as f:
+    with open(f"results/{ticker}_report.md", "w", encoding="utf-8") as f:
         f.write(report)
+        print(f"{ticker} Report Generated")
 
 
 if __name__ == "__main__":

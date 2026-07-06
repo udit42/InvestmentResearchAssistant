@@ -54,20 +54,3 @@ class ResearchAgent:
             }
 
 
-if __name__ == "__main__":
-    agent = ResearchAgent()
-
-    company = input("Enter Stock Ticker: ")
-
-    result = agent.get_company_profile(company)
-
-    if result["success"]:
-        print("\n========== COMPANY PROFILE ==========")
-        print(f"Ticker      : {result['ticker']}")
-        print(f"Company     : {result['company_name']}")
-        print(f"Sector      : {result['sector']}")
-        print(f"Industry    : {result['industry']}")
-        print(f"\nBusiness Description:\n")
-        print(result["business_description"])
-    else:
-        print(result["error"])

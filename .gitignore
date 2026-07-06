@@ -19,3 +19,12 @@ outputs/*
 results/*
 !results/.gitkeep
 
+<<<<<<< HEAD
+=======
+# Include sample files
+!outputs/META_research.json
+!outputs/META_financial.json
+!outputs/META_news.json
+!results/META_report.md
+
+>>>>>>> bf0145d (Add sample output and report)

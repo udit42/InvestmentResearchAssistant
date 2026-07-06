@@ -101,29 +101,3 @@ State that this report is generated using publicly available information and is 
         return response.text
 
 
-if __name__ == "__main__":
-
-    # Example only
-    research = {
-        "company_name": "Apple Inc.",
-        "ticker": "AAPL",
-        "sector": "Technology",
-        "industry": "Consumer Electronics",
-        "business_description": "Apple designs and sells consumer electronics..."
-    }
-
-    financial = {
-        "current_price": 212.45,
-        "market_cap": "3.1T",
-        "pe_ratio": 31.4,
-        "eps": 6.8,
-        "dividend_yield": "0.43%",
-        "fifty_two_week_high": 260,
-        "fifty_two_week_low": 169
-    }
-
-    agent = ReportAgent()
-
-    report = agent.generate_report(research, financial)
-
-    print(report)

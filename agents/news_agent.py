@@ -24,9 +24,10 @@ class NewsAgent:
             response = self.client.search(
                 query=f"{company_name} ({ticker}) latest stock news",
                 topic="news",
+                max_results=max_results,
                 search_depth="advanced",
-                max_results=5,
                 include_answer=True
+                
             )
 
             articles = []
@@ -50,10 +51,3 @@ class NewsAgent:
             }
 
 
-if __name__ == "__main__":
-
-    agent = NewsAgent()
-
-    news = agent.get_news("Apple", "AAPL")
-
-    print(news)

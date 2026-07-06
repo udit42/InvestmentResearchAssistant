@@ -64,25 +64,3 @@ class FinancialAgent:
             }
 
 
-if __name__ == "__main__":
-
-    agent = FinancialAgent()
-
-    ticker = input("Enter Stock Ticker: ")
-
-    result = agent.get_financial_data(ticker)
-
-    if result["success"]:
-
-        print("\n========== FINANCIAL METRICS ==========\n")
-
-        for key, value in result["financial_metrics"].items():
-            print(f"{key:20}: {value}")
-
-        print("\n========== LAST 5 DAYS ==========\n")
-
-        for day in result["stock_history"][-5:]:
-            print(day)
-
-    else:
-        print(result["error"])
